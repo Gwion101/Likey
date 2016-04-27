@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+use_frameworks!
+
+link_with 'Likey', 'LikeyTests'
+
+pod 'Alamofire'
+pod 'SwiftyJSON', '~> 2.2'
+pod 'SIAlertView', :git => 'https://github.com/Gwion101/SIAlertView', :branch => 'master'
+#pod 'WhirlyGlobe', :git => 'https://github.com/Gwion101/WhirlyGlobe', :branch => 'develop_2_4_1'
